@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 public class leetcode_1389 {
     public static void main(String[] args) {
-        int[] nums = {1};
-        int[] index = {0};
+        int[] nums = {0,1,2,3,4};
+        int[] index = {0,1,2,2,1};
         int[] ans = createTargetArray(nums,index);
         System.out.println(Arrays.toString(ans));
     }
