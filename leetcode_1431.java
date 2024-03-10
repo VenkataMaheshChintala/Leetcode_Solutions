@@ -12,7 +12,7 @@ public class leetcode_1431 {
         boolean result = false;
         ArrayList<Boolean> ans = new ArrayList<>(candies.length);
         for(int i=0;i<candies.length;i++) {
-            sum+=candies[i];
+            sum = sum + candies[i];
         }
         int temp;
         for(int i=0;i<candies.length;i++) {
