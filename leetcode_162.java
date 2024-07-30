@@ -1,10 +1,10 @@
-public class leetcode_852 {
+public class leetcode_162{
     public static void main(String[] args) {
         int arr[] = {0,1,2,0};
-        int ans = peakIndexMountainArray(arr);
+        int ans = findPeakElement(arr);
         System.out.println(ans);
     }
-    public static int peakIndexMountainArray(int[] arr) {
+    public static int findPeakElement(int[] arr) {
         int start = 0;
         int end = arr.length-1;
         int mid = (start + end)/2;
