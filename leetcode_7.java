@@ -24,7 +24,7 @@ public class leetcode_7 {
             temp = reve(temp);
             if(temp%100>47) return 0;
         }
-        int rev = 0, ld = 0;
+        int rev = 0;
         if(nod<=10) {
             rev = reve(x);
         }

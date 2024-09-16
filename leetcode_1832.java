@@ -7,6 +7,7 @@ public class leetcode_1832 {
         String string = sc.nextLine();
         boolean answer = checkIfPangram(string);
         System.out.println(answer);
+        sc.close();
     }
     public static boolean checkIfPangram(String sentence) {
         ArrayList<Character> list = new ArrayList<Character>(10);

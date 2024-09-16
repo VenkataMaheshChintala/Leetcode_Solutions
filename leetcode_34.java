@@ -14,6 +14,7 @@ public class leetcode_34 {
         int target = sc.nextInt();
         int[] answer = searchRange(nums,target);
         System.out.println(Arrays.toString(answer));
+        sc.close();
     }
     public static int[] searchRange(int[] nums, int target) {
         int start = 0;

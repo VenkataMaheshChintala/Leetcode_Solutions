@@ -14,6 +14,7 @@ public class leetcode_744 {
         char target = sc.next().charAt(0);
         char answer = nextGreatestLetter(letters,target);
         System.out.println(answer);
+        sc.close();
     }
     public static char nextGreatestLetter(char[] letters,char target) {
         int start = 0;
