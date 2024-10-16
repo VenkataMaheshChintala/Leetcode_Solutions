@@ -8,7 +8,8 @@ public class leetcode_1351 {
     }
     static int search(int[][] matrix) {
         int row = 0,nrow = matrix.length;
-        int col = matrix[0].length - 1,ncol = matrix[0].length;
+        int col = matrix[0].length - 1;
+        int ncol = matrix[0].length;
         int ans = 0;
         while (row < matrix.length && col >= 0) {
             if (matrix[row][col] < 0) {
