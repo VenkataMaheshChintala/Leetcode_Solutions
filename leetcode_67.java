@@ -8,6 +8,7 @@ public class leetcode_67 {
         String b = sc.next();
         String ans = addBinary(a,b);
         System.out.println(ans);
+        sc.close();
     }
     public static String addBinary(String a, String b) {
         String ans2 = "";
