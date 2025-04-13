@@ -21,5 +21,4 @@ public class leetcode_202 {
         }
         return ans;
     }
-
 }
