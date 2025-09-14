@@ -1,3 +1,6 @@
+import java.util.Stack;
+import java.util.Objects;
+
 public class leetcode_71 {
     public String simplifyPath(String path) {
         if(path.equals("/")) return "/";
