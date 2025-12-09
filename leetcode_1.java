@@ -10,7 +10,7 @@ public class leetcode_1 {
     }
     public static int[] twoSum(int target,int[] nums) {
         int[] result = new int[2];
-        int temp,temp1;
+        int temp;
         HashMap<Integer,Integer> hashmap = new HashMap<>();
         for(int i=0;i<nums.length;i++) {
             hashmap.put(nums[i],i);

@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class leetcode_38 {
     public static String convertMatrixtoString(int[][] matrix) {
@@ -38,7 +37,6 @@ public class leetcode_38 {
         return s;
     }
     public static void main(String[] args) {
-        int n = 4;
         System.out.println(countAndSay(3));
     }
 }
