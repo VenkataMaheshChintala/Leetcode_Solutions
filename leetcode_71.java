@@ -11,7 +11,7 @@ public class leetcode_71 {
         }
         Stack<String> stack = new Stack<>();
         String temp;
-        int index = 0,index1=0;
+        int index = 0;
         int i=1,count=0;
         stack.push("/");
         while (i< path.length() && i != -1){
