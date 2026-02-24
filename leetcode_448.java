@@ -8,7 +8,6 @@ public class leetcode_448 {
             map.put(nums[i],i);
         }
         List<Integer> list = new ArrayList<>();
-        int temp = -1;
         for(int i=1;i<=nums.length;i++) {
             if(!map.containsKey(i)) list.add(i);
         }

@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class leetcode_680 {
     public static boolean isPalindrome(String s,int start_index,int end_index) {
         while(start_index <= end_index) {
@@ -43,9 +41,5 @@ public class leetcode_680 {
             }
         }
     }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        System.out.println(validPalindrome(s));
-    }
+
 }

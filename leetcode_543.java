@@ -9,7 +9,6 @@ public class leetcode_543 {
         return Math.max(lh,rh)+1;
     }
     public int diameterOfBinaryTree(TreeNode root) {
-        int h = height(root);
         return diameter-1;
     }
 }
