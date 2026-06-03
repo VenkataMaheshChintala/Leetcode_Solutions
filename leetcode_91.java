@@ -4,7 +4,6 @@ import java.util.List;
 
 public class leetcode_91 {
     List<String> list;
-    HashMap<String,Integer> map;
     public int helper(String unprocessed) {
         if(map.containsKey(unprocessed)) return map.get(unprocessed);
         if(unprocessed.isEmpty()) return 1;
